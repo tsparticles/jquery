@@ -65,49 +65,6 @@ importers:
       stylus: 0.59.0
       typescript: 4.9.4
 
-  components-legacy/jquery:
-    specifiers:
-      '@babel/core': ^7.20.7
-      '@babel/preset-env': ^7.20.2
-      '@tsparticles/prettier-config': ^1.5.0
-      '@types/jquery': ^3.5.14
-      '@types/node': ^18.11.17
-      '@types/webpack-env': ^1.18.0
-      '@typescript-eslint/eslint-plugin': ^5.47.0
-      '@typescript-eslint/parser': ^5.47.0
-      babel-preset-env: ^1.7.0
-      eslint: ^8.30.0
-      eslint-config-prettier: ^8.5.0
-      jquery: ^3.6.3
-      prettier: ^2.8.1
-      rollup: ^3.8.1
-      rollup-plugin-babel: ^4.4.0
-      rollup-plugin-sourcemaps: ^0.6.3
-      tsparticles-engine: ^2.7.1
-      typescript: ^4.9.4
-      uglify-js: ^3.17.4
-    dependencies:
-      tsparticles-engine: 2.7.1
-    devDependencies:
-      '@babel/core': 7.20.7
-      '@babel/preset-env': 7.20.2_@babel+core@7.20.7
-      '@tsparticles/prettier-config': 1.5.0_prettier@2.8.1
-      '@types/jquery': 3.5.14
-      '@types/node': 18.11.18
-      '@types/webpack-env': 1.18.0
-      '@typescript-eslint/eslint-plugin': 5.47.1_txmweb6yn7coi7nfrp22gpyqmy
-      '@typescript-eslint/parser': 5.47.1_lzzuuodtsqwxnvqeq4g4likcqa
-      babel-preset-env: 1.7.0
-      eslint: 8.30.0
-      eslint-config-prettier: 8.5.0_eslint@8.30.0
-      jquery: 3.6.3
-      prettier: 2.8.1
-      rollup: 3.9.0
-      rollup-plugin-babel: 4.4.0_reuzow2s3jnfjeviq3lgj55fky
-      rollup-plugin-sourcemaps: 0.6.3_3kbjtgm4o6vzxqev4dfb6mqttq
-      typescript: 4.9.4
-      uglify-js: 3.17.4
-
   components/jquery:
     specifiers:
       '@babel/core': ^7.20.7
