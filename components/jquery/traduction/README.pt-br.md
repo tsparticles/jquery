@@ -1,8 +1,8 @@
 [![banner](https://particles.js.org/images/banner3.png)](https://particles.js.org)
 
-# @tsparticles/jquery
+# jquery-particles
 
-[![npm](https://img.shields.io/npm/v/@tsparticles/jquery)](https://www.npmjs.com/package/@tsparticles/jquery) [![npm](https://img.shields.io/npm/dm/@tsparticles/jquery)](https://www.npmjs.com/package/@tsparticles/jquery)
+[![npm](https://img.shields.io/npm/v/jquery-particles)](https://www.npmjs.com/package/jquery-particles) [![npm](https://img.shields.io/npm/dm/jquery-particles)](https://www.npmjs.com/package/jquery-particles)
 
 Componente Oficial [tsParticles](https://github.com/matteobruni/tsparticles) para jQuery
 
@@ -13,19 +13,19 @@ Componente Oficial [tsParticles](https://github.com/matteobruni/tsparticles) par
 ## Instalação
 
 ```shell script
-npm install @tsparticles/jquery
+npm install jquery-particles
 ```
 
 ou pelo jsDelivr
 
-[![jsDelivr](https://data.jsdelivr.com/v1/package/npm/@tsparticles/jquery/badge)](https://www.jsdelivr.com/package/npm/@tsparticles/jquery)
+[![jsDelivr](https://data.jsdelivr.com/v1/package/npm/jquery-particles/badge)](https://www.jsdelivr.com/package/npm/jquery-particles)
 
 ```html
 <!-- first include tsParticles -->
 <script src="https://cdn.jsdelivr.net/npm/tsparticles"></script>
 
 <!-- then include jquery wrapper -->
-<script src="https://cdn.jsdelivr.net/npm/@tsparticles/jquery"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-particles"></script>
 ```
 
 ## Como usar

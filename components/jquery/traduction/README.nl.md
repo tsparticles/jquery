@@ -1,8 +1,8 @@
 [![banner](https://particles.js.org/images/banner3.png)](https://particles.js.org)
 
-# @tsparticles/jquery
+# jquery-particles
 
-[![npm](https://img.shields.io/npm/v/@tsparticles/jquery)](https://www.npmjs.com/package/@tsparticles/jquery) [![npm](https://img.shields.io/npm/dm/@tsparticles/jquery)](https://www.npmjs.com/package/@tsparticles/jquery)
+[![npm](https://img.shields.io/npm/v/jquery-particles)](https://www.npmjs.com/package/jquery-particles) [![npm](https://img.shields.io/npm/dm/jquery-particles)](https://www.npmjs.com/package/jquery-particles)
 
 Officiële [tsParticles](https://github.com/matteobruni/tsparticles) jQuery plugin
 
@@ -13,19 +13,19 @@ Officiële [tsParticles](https://github.com/matteobruni/tsparticles) jQuery plug
 ## Installatie
 
 ```shell script
-npm install @tsparticles/jquery
+npm install jquery-particles
 ```
 
 of van jsDelivr
 
-[![jsDelivr](https://data.jsdelivr.com/v1/package/npm/@tsparticles/jquery/badge)](https://www.jsdelivr.com/package/npm/@tsparticles/jquery)
+[![jsDelivr](https://data.jsdelivr.com/v1/package/npm/jquery-particles/badge)](https://www.jsdelivr.com/package/npm/jquery-particles)
 
 ```html
 <!-- Voeg eerst tsParticles toe -->
 <script src="https://cdn.jsdelivr.net/npm/tsparticles"></script>
 
 <!-- En dan de jquery wrapper -->
-<script src="https://cdn.jsdelivr.net/npm/@tsparticles/jquery"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-particles"></script>
 ```
 
 ## Hoe je het gebruikt
