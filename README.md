@@ -2,6 +2,8 @@
 
 # @tsparticles/jquery
 
+**This branch refers to the upcoming v3, for v2 documentation please refer to the [legacy branch](https://github.com/tsparticles/jquery/tree/legacy)**
+
 [![npm](https://img.shields.io/npm/v/@tsparticles/jquery)](https://www.npmjs.com/package/@tsparticles/jquery) [![npm](https://img.shields.io/npm/dm/@tsparticles/jquery)](https://www.npmjs.com/package/@tsparticles/jquery) [![GitHub Sponsors](https://img.shields.io/github/sponsors/matteobruni)](https://github.com/sponsors/matteobruni)
 
 Official [tsParticles](https://github.com/matteobruni/tsparticles) jQuery plugin
