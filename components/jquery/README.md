@@ -126,7 +126,7 @@ $(document).ready(async function () {
             function (container) {
                 // container is the particles container where you can play/pause or stop/start.
                 // the container is already started, you don't need to start it manually.
-            }
+            },
         );
 
     // or
