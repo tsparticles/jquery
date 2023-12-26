@@ -1,5 +1,4 @@
-import babel from 'rollup-plugin-babel';
-import sourcemaps from 'rollup-plugin-sourcemaps';
+import babel from '@rollup/plugin-babel';
 
 export default {
     input: 'dist/particles.js',
@@ -9,17 +8,17 @@ export default {
         sourcemap: true,
         globals: {
             jquery: 'jQuery',
-            'tsparticles-engine': 'window'
+            '@tsparticles/engine': 'window'
         }
     },
     external: [
         'jquery',
-        'tsparticles-engine'
+        '@tsparticles/engine'
     ],
     plugins: [
         babel({
             exclude: 'node_modules/**',
+            inputSourceMap: true,
         }),
-        sourcemaps()
     ]
 };

@@ -1,4 +1,4 @@
-import { type Container, type ISourceOptions, getRandom, tsParticles } from "tsparticles-engine";
+import { type Container, type ISourceOptions, getRandom, tsParticles } from "@tsparticles/engine";
 
 /**
  * Extend the jQuery result declaration with the example plugin.
@@ -28,7 +28,7 @@ $.fn.particles = function (): ParticlesResult {
                 element.id = baseId + Math.floor(getRandom() * 1000);
             }
 
-            tsParticles.load(element.id, options).then(callback);
+            tsParticles.load({ id: element.id, options }).then(callback);
         });
     };
 
@@ -38,7 +38,7 @@ $.fn.particles = function (): ParticlesResult {
                 element.id = baseId + Math.floor(getRandom() * 1000);
             }
 
-            tsParticles.loadJSON(element.id, jsonUrl).then(callback);
+            tsParticles.load({ id: element.id, url: jsonUrl }).then(callback);
         });
     };
 

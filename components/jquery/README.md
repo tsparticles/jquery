@@ -1,8 +1,8 @@
 [![banner](https://particles.js.org/images/banner3.png)](https://particles.js.org)
 
-# jquery-particles
+# @tsparticles/jquery
 
-[![npm](https://img.shields.io/npm/v/jquery-particles)](https://www.npmjs.com/package/jquery-particles) [![npm](https://img.shields.io/npm/dm/jquery-particles)](https://www.npmjs.com/package/jquery-particles) [![GitHub Sponsors](https://img.shields.io/github/sponsors/matteobruni)](https://github.com/sponsors/matteobruni)
+[![npm](https://img.shields.io/npm/v/@tsparticles/jquery)](https://www.npmjs.com/package/@tsparticles/jquery) [![npm](https://img.shields.io/npm/dm/@tsparticles/jquery)](https://www.npmjs.com/package/@tsparticles/jquery) [![GitHub Sponsors](https://img.shields.io/github/sponsors/matteobruni)](https://github.com/sponsors/matteobruni)
 
 Official [tsParticles](https://github.com/matteobruni/tsparticles) jQuery plugin
 
@@ -13,28 +13,25 @@ Official [tsParticles](https://github.com/matteobruni/tsparticles) jQuery plugin
 ## Installation
 
 ```shell
-$ npm install jquery-particles
+$ npm install @tsparticles/jquery
 ```
 
 or
 
 ```shell
-$ yarn add jquery-particles
+$ yarn add @tsparticles/jquery
 ```
 
 or from jsDelivr
 
-[![jsDelivr](https://data.jsdelivr.com/v1/package/npm/jquery-particles/badge)](https://www.jsdelivr.com/package/npm/jquery-particles)
+[![jsDelivr](https://data.jsdelivr.com/v1/package/npm/@tsparticles/jquery/badge)](https://www.jsdelivr.com/package/npm/@tsparticles/jquery)
 
 ```html
-<!-- first include tsParticles engine -->
-<script src="https://cdn.jsdelivr.net/npm/tsparticles-engine"></script>
-
-<!-- then include any tsParticles plugin needed -->
+<!-- first include any tsParticles plugin needed -->
 <script src="https://cdn.jsdelivr.net/npm/tsparticles/tsparticles.bundle.min.js"></script>
 
 <!-- then include jquery wrapper -->
-<script src="https://cdn.jsdelivr.net/npm/jquery-particles"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tsparticles/jquery"></script>
 ```
 
 ## How to use
@@ -71,7 +68,6 @@ $(document).ready(async function () {
                             enable: true,
                             mode: "repulse",
                         },
-                        resize: true,
                     },
                     modes: {
                         push: {
@@ -107,7 +103,6 @@ $(document).ready(async function () {
                     number: {
                         density: {
                             enable: true,
-                            area: 800,
                         },
                         value: 80,
                     },
@@ -126,7 +121,7 @@ $(document).ready(async function () {
             function (container) {
                 // container is the particles container where you can play/pause or stop/start.
                 // the container is already started, you don't need to start it manually.
-            }
+            },
         );
 
     // or
