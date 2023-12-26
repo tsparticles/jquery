@@ -28,7 +28,7 @@ $.fn.particles = function (): ParticlesResult {
                 element.id = baseId + Math.floor(getRandom() * 1000);
             }
 
-            tsParticles.load({ element, options }).then(callback);
+            tsParticles.load({ id: element.id, options }).then(callback);
         });
     };
 
@@ -38,7 +38,7 @@ $.fn.particles = function (): ParticlesResult {
                 element.id = baseId + Math.floor(getRandom() * 1000);
             }
 
-            tsParticles.load({ element, url: jsonUrl }).then(callback);
+            tsParticles.load({ id: element.id, url: jsonUrl }).then(callback);
         });
     };
 

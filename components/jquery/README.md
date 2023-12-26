@@ -68,7 +68,6 @@ $(document).ready(async function () {
                             enable: true,
                             mode: "repulse",
                         },
-                        resize: true,
                     },
                     modes: {
                         push: {
@@ -104,7 +103,6 @@ $(document).ready(async function () {
                     number: {
                         density: {
                             enable: true,
-                            area: 800,
                         },
                         value: 80,
                     },
@@ -123,7 +121,7 @@ $(document).ready(async function () {
             function (container) {
                 // container is the particles container where you can play/pause or stop/start.
                 // the container is already started, you don't need to start it manually.
-            }
+            },
         );
 
     // or

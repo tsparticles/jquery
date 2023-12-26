@@ -35,16 +35,16 @@ let updateParticles = function (editor) {
     $('#tsparticles').particles().init(tsParticles.configs[presetId], (particles) => {
         localStorage.presetId = presetId;
 
-        const omit = (obj) => {
+        const omit = obj => {
             return _.omitBy(obj, (value, key) => {
                 return _.startsWith(key, "_");
-            })
+            });
         };
 
-        const transform = (obj) => {
+        const transform = obj => {
             return _.transform(omit(obj), function (result, value, key) {
-                result[key] = _.isObject(value) ? transform(omit(value)) : value;
-            })
+                result[key] = !_.isArray(value) && _.isObject(value) ? transform(omit(value)) : value;
+            });
         };
 
         editor.update(transform(particles.options));
@@ -98,8 +98,12 @@ $(document).ready(function () {
     btnUpdate.click(function () {
         const particles = tsParticles.domItem(0);
 
-        particles.options = editor.get();
-        particles.refresh();
+        particles.reset().then(() => {
+            particles.options.load(editor.get());
+            particles.refresh().then(() => {
+                // do nothing
+            });
+        });
     });
 
     //document.body.querySelector('#tsparticles-container').appendChild(stats.dom);
