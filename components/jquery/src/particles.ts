@@ -1,5 +1,4 @@
-import { tsParticles, getRandom } from "tsparticles-engine";
-import type { ISourceOptions, Container } from "tsparticles-engine";
+import { type Container, type ISourceOptions, getRandom, tsParticles } from "tsparticles-engine";
 
 /**
  * Extend the jQuery result declaration with the example plugin.
