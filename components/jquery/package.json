@@ -101,6 +101,9 @@
     }
   ],
   "prettier": "@tsparticles/prettier-config",
+  "publishConfig": {
+    "access": "public"
+  },
   "peerDependencies": {
     "jquery": "^3.7.1"
   },
