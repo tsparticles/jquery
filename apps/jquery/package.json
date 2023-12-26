@@ -1,7 +1,7 @@
 {
   "name": "@tsparticles/jquery-demo",
   "private": true,
-  "version": "2.9.3",
+  "version": "3.0.0",
   "description": "> TODO: description",
   "author": "Matteo Bruni <matteo.bruni@me.com>",
   "homepage": "https://particles.js.org",
@@ -21,12 +21,12 @@
     "url": "https://github.com/tsparticles/jquery/issues"
   },
   "dependencies": {
-    "jquery": "^3.7.1",
-    "@tsparticles/jquery": "workspace:^",
-    "tsparticles": "^3.0.2",
     "@tsparticles/configs": "^3.0.2",
     "@tsparticles/engine": "^3.0.2",
-    "@tsparticles/preset-links": "^3.0.1"
+    "@tsparticles/jquery": "workspace:^",
+    "@tsparticles/preset-links": "^3.0.1",
+    "jquery": "^3.7.1",
+    "tsparticles": "^3.0.2"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^6.5.1",

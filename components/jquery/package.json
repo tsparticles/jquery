@@ -1,6 +1,6 @@
 {
   "name": "@tsparticles/jquery",
-  "version": "2.9.3",
+  "version": "3.0.0",
   "description": "Official tsParticles jQuery Plugin - Easily create highly customizable particle, confetti and fireworks animations and use them as animated backgrounds for your website. Ready to use components available also for Web Components, React, Vue.js (2.x and 3.x), Angular, Svelte, Preact, Riot.js, Solid.js, Inferno.",
   "main": "dist/jquery.particles.min.js",
   "scripts": {
@@ -110,6 +110,7 @@
   "devDependencies": {
     "@babel/core": "^7.23.6",
     "@babel/preset-env": "^7.23.6",
+    "@rollup/plugin-babel": "^6.0.4",
     "@tsparticles/prettier-config": "^2.0.1",
     "@types/jquery": "^3.5.29",
     "@types/node": "^20.10.5",
@@ -122,7 +123,6 @@
     "jquery": "^3.7.1",
     "prettier": "^3.1.1",
     "rollup": "^4.9.1",
-    "@rollup/plugin-babel": "^6.0.4",
     "typescript": "^5.3.3",
     "uglify-js": "^3.17.4"
   }
