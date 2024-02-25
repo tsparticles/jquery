@@ -71,7 +71,7 @@ importers:
         version: 7.1.0
       jsoneditor:
         specifier: ^10.0.0
-        version: 10.0.0
+        version: 10.0.1
       lodash:
         specifier: ^4.17.21
         version: 4.17.21
@@ -2886,8 +2886,8 @@ packages:
       negotiator: 0.6.3
     dev: true
 
-  /ace-builds@1.32.2:
-    resolution: {integrity: sha512-mnJAc803p+7eeDt07r6XI7ufV7VdkpPq4gJZT8Jb3QsowkaBTVy4tdBgPrVT0WbXLm0toyEQXURKSVNj/7dfJQ==}
+  /ace-builds@1.32.6:
+    resolution: {integrity: sha512-dO5BnyDOhCnznhOpILzXq4jqkbhRXxNkf3BuVTmyxGyRLrhddfdyk6xXgy+7A8LENrcYoFi/sIxMuH3qjNUN4w==}
     dev: true
 
   /acorn-jsx@5.3.2(acorn@8.11.2):
@@ -4747,8 +4747,8 @@ packages:
   /fs.realpath@1.0.0:
     resolution: {integrity: sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==}
 
-  /fsevents@2.3.2:
-    resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
+  /fsevents@2.3.3:
+    resolution: {integrity: sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
     requiresBuild: true
@@ -5558,15 +5558,15 @@ packages:
     resolution: {integrity: sha512-gfFQZrcTc8CnKXp6Y4/CBT3fTc0OVuDofpre4aEeEpSBPV5X5v4+Vmx+8snU7RLPrNHPKSgLxGo9YuQzz20o+w==}
     dev: false
 
-  /jsoneditor@10.0.0:
-    resolution: {integrity: sha512-yh/kj/Ecxacj7ZG2ynmJvHcESgdHiAe1N7iKUVIYFpeP4/rwp87yua2y0BDayyY6uJz01KgRvdl4W1Wt94EkOQ==}
+  /jsoneditor@10.0.1:
+    resolution: {integrity: sha512-a9eNs1XegXBrZSMakpDQTCx6z2GyjnbfxDJ9vd2Vn+lD2zORbQ7vyTqSZLI7Ihz8qel1C8KHFy7EFxtp3d++RA==}
     dependencies:
-      ace-builds: 1.32.2
+      ace-builds: 1.32.6
       ajv: 6.12.6
       javascript-natural-sort: 0.7.1
       jmespath: 0.16.0
       json-source-map: 0.6.1
-      jsonrepair: 3.5.0
+      jsonrepair: 3.6.0
       mobius1-selectr: 2.4.13
       picomodal: 3.0.0
       vanilla-picker: 2.12.2
@@ -5585,8 +5585,8 @@ packages:
     engines: {'0': node >= 0.2.0}
     dev: false
 
-  /jsonrepair@3.5.0:
-    resolution: {integrity: sha512-SavvDsUP9Xnqo2MoC6Wl6zNyX3f+I5199hRbXBtAITyP2NTPyAgyx5xM0bgcIljRjzsIvOBANbgfWe8XXlyeLA==}
+  /jsonrepair@3.6.0:
+    resolution: {integrity: sha512-ZvOmoq35LhlDaf1W3uT7e17Bh2dYbln1+pdJ1KUIMkRAoUC4mvXX+dbr9Ih6dDmYvB0mdijAucyPk4xX1cEjww==}
     hasBin: true
     dev: true
 
@@ -7303,7 +7303,7 @@ packages:
       '@rollup/rollup-win32-arm64-msvc': 4.9.1
       '@rollup/rollup-win32-ia32-msvc': 4.9.1
       '@rollup/rollup-win32-x64-msvc': 4.9.1
-      fsevents: 2.3.2
+      fsevents: 2.3.3
     dev: true
 
   /run-async@2.4.1:
