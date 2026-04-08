@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@commitlint/cli':
         specifier: ^18.4.3
-        version: 18.4.3(typescript@5.3.3)
+        version: 18.4.3(typescript@6.0.2)
       '@commitlint/config-conventional':
         specifier: ^18.4.3
         version: 18.4.3
@@ -34,7 +34,7 @@ importers:
         version: link:../../components/jquery
       '@tsparticles/preset-links':
         specifier: ^3.0.1
-        version: 3.0.1
+        version: 3.2.0
       jquery:
         specifier: ^3.7.1
         version: 3.7.1
@@ -1365,14 +1365,14 @@ packages:
       to-fast-properties: 2.0.0
     dev: true
 
-  /@commitlint/cli@18.4.3(typescript@5.3.3):
+  /@commitlint/cli@18.4.3(typescript@6.0.2):
     resolution: {integrity: sha512-zop98yfB3A6NveYAZ3P1Mb6bIXuCeWgnUfVNkH4yhIMQpQfzFwseadazOuSn0OOfTt0lWuFauehpm9GcqM5lww==}
     engines: {node: '>=v18'}
     hasBin: true
     dependencies:
       '@commitlint/format': 18.4.3
       '@commitlint/lint': 18.4.3
-      '@commitlint/load': 18.4.3(typescript@5.3.3)
+      '@commitlint/load': 18.4.3(typescript@6.0.2)
       '@commitlint/read': 18.4.3
       '@commitlint/types': 18.4.3
       execa: 5.1.1
@@ -1442,7 +1442,7 @@ packages:
       '@commitlint/types': 18.4.3
     dev: false
 
-  /@commitlint/load@18.4.3(typescript@5.3.3):
+  /@commitlint/load@18.4.3(typescript@6.0.2):
     resolution: {integrity: sha512-v6j2WhvRQJrcJaj5D+EyES2WKTxPpxENmNpNG3Ww8MZGik3jWRXtph0QTzia5ZJyPh2ib5aC/6BIDymkUUM58Q==}
     engines: {node: '>=v18'}
     dependencies:
@@ -1452,8 +1452,8 @@ packages:
       '@commitlint/types': 18.4.3
       '@types/node': 18.19.3
       chalk: 4.1.2
-      cosmiconfig: 8.3.6(typescript@5.3.3)
-      cosmiconfig-typescript-loader: 5.0.0(@types/node@18.19.3)(cosmiconfig@8.3.6)(typescript@5.3.3)
+      cosmiconfig: 8.3.6(typescript@6.0.2)
+      cosmiconfig-typescript-loader: 5.0.0(@types/node@18.19.3)(cosmiconfig@8.3.6)(typescript@6.0.2)
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       lodash.uniq: 4.5.0
@@ -2311,16 +2311,19 @@ packages:
     engines: {node: '>= 10'}
     dev: false
 
-  /@tsparticles/basic@3.0.2:
-    resolution: {integrity: sha512-aM3X4daYRFxrkZ7+puHYjlgWjFaU4ROe8XOx7K+BnADfd0WM1I+JC0kspMEOe0b0qoiCbbbRpBqD135Kc75FXg==}
+  /@tsparticles/basic@3.9.1:
+    resolution: {integrity: sha512-ijr2dHMx0IQHqhKW3qA8tfwrR2XYbbWYdaJMQuBo2CkwBVIhZ76U+H20Y492j/NXpd1FUnt2aC0l4CEVGVGdeQ==}
     dependencies:
-      '@tsparticles/engine': 3.0.2
-      '@tsparticles/move-base': 3.0.2
-      '@tsparticles/shape-circle': 3.0.2
-      '@tsparticles/updater-color': 3.0.2
-      '@tsparticles/updater-opacity': 3.0.2
-      '@tsparticles/updater-out-modes': 3.0.2
-      '@tsparticles/updater-size': 3.0.2
+      '@tsparticles/engine': 3.9.1
+      '@tsparticles/move-base': 3.9.1
+      '@tsparticles/plugin-hex-color': 3.9.1
+      '@tsparticles/plugin-hsl-color': 3.9.1
+      '@tsparticles/plugin-rgb-color': 3.9.1
+      '@tsparticles/shape-circle': 3.9.1
+      '@tsparticles/updater-color': 3.9.1
+      '@tsparticles/updater-opacity': 3.9.1
+      '@tsparticles/updater-out-modes': 3.9.1
+      '@tsparticles/updater-size': 3.9.1
     dev: false
 
   /@tsparticles/configs@3.0.2:
@@ -2331,6 +2334,11 @@ packages:
 
   /@tsparticles/engine@3.0.2:
     resolution: {integrity: sha512-2HhuJuHjz/GiIP0i+jpymnZEXfR82sTkp7jb/sQYfiHCu5Bh0XcNNuvZXbRMgt2qdB+BAupFA7ghIB1FfnLyug==}
+    requiresBuild: true
+    dev: false
+
+  /@tsparticles/engine@3.9.1:
+    resolution: {integrity: sha512-DpdgAhWMZ3Eh2gyxik8FXS6BKZ8vyea+Eu5BC4epsahqTGY9V3JGGJcXC6lRJx6cPMAx1A0FaQAojPF3v6rkmQ==}
     requiresBuild: true
     dev: false
 
@@ -2412,16 +2420,22 @@ packages:
       '@tsparticles/engine': 3.0.2
     dev: false
 
-  /@tsparticles/interaction-particles-links@3.0.2:
-    resolution: {integrity: sha512-XCpTAgZWd0Om/iRa2I+YtzGiWVo5egWlx3PXE07DsZRQkeQJS0DcmMUx5Um3OagDkgfHmMZx0CDwDbCufA4ncQ==}
+  /@tsparticles/interaction-particles-links@3.9.1:
+    resolution: {integrity: sha512-MsLbMjy1vY5M5/hu/oa5OSRZAUz49H3+9EBMTIOThiX+a+vpl3sxc9AqNd9gMsPbM4WJlub8T6VBZdyvzez1Vg==}
     dependencies:
-      '@tsparticles/engine': 3.0.2
+      '@tsparticles/engine': 3.9.1
     dev: false
 
   /@tsparticles/move-base@3.0.2:
     resolution: {integrity: sha512-PjLII47p3tT6yOLb+CLLohaxXw13MVuijFq8sLkuNPbUNSE0ooJ0pmncqaAchFIYu2JxDbRZ1GuTuqEw+AIRUw==}
     dependencies:
       '@tsparticles/engine': 3.0.2
+    dev: false
+
+  /@tsparticles/move-base@3.9.1:
+    resolution: {integrity: sha512-X4huBS27d8srpxwOxliWPUt+NtCwY+8q/cx1DvQxyqmTA8VFCGpcHNwtqiN+9JicgzOvSuaORVqUgwlsc7h4pQ==}
+    dependencies:
+      '@tsparticles/engine': 3.9.1
     dev: false
 
   /@tsparticles/move-parallax@3.0.2:
@@ -2462,12 +2476,30 @@ packages:
       '@tsparticles/engine': 3.0.2
     dev: false
 
-  /@tsparticles/preset-links@3.0.1:
-    resolution: {integrity: sha512-S3n+UyD4ZSoLkaS6W7uRh40V1PkA+KmomMNvkclwPsjZ4eqKtMnl2QMUZgF1cGPot8LLnDGt83SB+laV5V4TyA==}
+  /@tsparticles/plugin-hex-color@3.9.1:
+    resolution: {integrity: sha512-vZgZ12AjUicJvk7AX4K2eAmKEQX/D1VEjEPFhyjbgI7A65eX72M465vVKIgNA6QArLZ1DLs7Z787LOE6GOBWsg==}
     dependencies:
-      '@tsparticles/basic': 3.0.2
-      '@tsparticles/engine': 3.0.2
-      '@tsparticles/interaction-particles-links': 3.0.2
+      '@tsparticles/engine': 3.9.1
+    dev: false
+
+  /@tsparticles/plugin-hsl-color@3.9.1:
+    resolution: {integrity: sha512-jJd1iGgRwX6eeNjc1zUXiJivaqC5UE+SC2A3/NtHwwoQrkfxGWmRHOsVyLnOBRcCPgBp/FpdDe6DIDjCMO715w==}
+    dependencies:
+      '@tsparticles/engine': 3.9.1
+    dev: false
+
+  /@tsparticles/plugin-rgb-color@3.9.1:
+    resolution: {integrity: sha512-SBxk7f1KBfXeTnnklbE2Hx4jBgh6I6HOtxb+Os1gTp0oaghZOkWcCD2dP4QbUu7fVNCMOcApPoMNC8RTFcy9wQ==}
+    dependencies:
+      '@tsparticles/engine': 3.9.1
+    dev: false
+
+  /@tsparticles/preset-links@3.2.0:
+    resolution: {integrity: sha512-F4nddhEzMSiZZzIizXcb6jMbHEC7+hAwzrUph1OiRvHWnLeo13pDG0DdYIKhY15xC6cZP0IMZq7wzIUkyPJ1ew==}
+    dependencies:
+      '@tsparticles/basic': 3.9.1
+      '@tsparticles/engine': 3.9.1
+      '@tsparticles/interaction-particles-links': 3.9.1
     dev: false
 
   /@tsparticles/prettier-config@2.0.1:
@@ -2481,6 +2513,12 @@ packages:
     resolution: {integrity: sha512-BqeeP2Oxu7NxEx6znB5V9rYc0VPZNrpC6WNyz78nvnhyARgQZWNRgNo5igaE2Zn+ss64KHNxkQDkbYP+ZAc1BQ==}
     dependencies:
       '@tsparticles/engine': 3.0.2
+    dev: false
+
+  /@tsparticles/shape-circle@3.9.1:
+    resolution: {integrity: sha512-DqZFLjbuhVn99WJ+A9ajz9YON72RtCcvubzq6qfjFmtwAK7frvQeb6iDTp6Ze9FUipluxVZWVRG4vWTxi2B+/g==}
+    dependencies:
+      '@tsparticles/engine': 3.9.1
     dev: false
 
   /@tsparticles/shape-emoji@3.0.2:
@@ -2528,7 +2566,7 @@ packages:
   /@tsparticles/slim@3.0.2:
     resolution: {integrity: sha512-EAmfK1Oy2d1zwA1Dfpt0AQaut71zrmXOT4uvzuGq+PRH5CSbhqWuYplKCauYNCw02s+z3o3tCSea5/hcXh3tOA==}
     dependencies:
-      '@tsparticles/basic': 3.0.2
+      '@tsparticles/basic': 3.9.1
       '@tsparticles/engine': 3.0.2
       '@tsparticles/interaction-external-attract': 3.0.2
       '@tsparticles/interaction-external-bounce': 3.0.2
@@ -2542,7 +2580,7 @@ packages:
       '@tsparticles/interaction-external-slow': 3.0.2
       '@tsparticles/interaction-particles-attract': 3.0.2
       '@tsparticles/interaction-particles-collisions': 3.0.2
-      '@tsparticles/interaction-particles-links': 3.0.2
+      '@tsparticles/interaction-particles-links': 3.9.1
       '@tsparticles/move-base': 3.0.2
       '@tsparticles/move-parallax': 3.0.2
       '@tsparticles/plugin-easing-quad': 3.0.2
@@ -2568,6 +2606,12 @@ packages:
       '@tsparticles/engine': 3.0.2
     dev: false
 
+  /@tsparticles/updater-color@3.9.1:
+    resolution: {integrity: sha512-XGWdscrgEMA8L5E7exsE0f8/2zHKIqnTrZymcyuFBw2DCB6BIV+5z6qaNStpxrhq3DbIxxhqqcybqeOo7+Alpg==}
+    dependencies:
+      '@tsparticles/engine': 3.9.1
+    dev: false
+
   /@tsparticles/updater-destroy@3.0.2:
     resolution: {integrity: sha512-6EovcvnKDkI/uKRT1KURoUhIdGsuRDoiFkb4kg6J1Sc8lF9EFtzjFd7hl1WDntl0jbtyhwzE/dFV0sBaPesYOg==}
     dependencies:
@@ -2586,10 +2630,22 @@ packages:
       '@tsparticles/engine': 3.0.2
     dev: false
 
+  /@tsparticles/updater-opacity@3.9.1:
+    resolution: {integrity: sha512-w778LQuRZJ+IoWzeRdrGykPYSSaTeWfBvLZ2XwYEkh/Ss961InOxZKIpcS6i5Kp/Zfw0fS1ZAuqeHwuj///Osw==}
+    dependencies:
+      '@tsparticles/engine': 3.9.1
+    dev: false
+
   /@tsparticles/updater-out-modes@3.0.2:
     resolution: {integrity: sha512-5Z6RRSnDeP0I0ToRF7kKJbsIZ3RCCIPeLPSL6uGeTaEiwZ2uD3DU87Brf66N0c4ioxKjpwQ/VKt3nRF9PIyNXQ==}
     dependencies:
       '@tsparticles/engine': 3.0.2
+    dev: false
+
+  /@tsparticles/updater-out-modes@3.9.1:
+    resolution: {integrity: sha512-cKQEkAwbru+hhKF+GTsfbOvuBbx2DSB25CxOdhtW2wRvDBoCnngNdLw91rs+0Cex4tgEeibkebrIKFDDE6kELg==}
+    dependencies:
+      '@tsparticles/engine': 3.9.1
     dev: false
 
   /@tsparticles/updater-roll@3.0.2:
@@ -2608,6 +2664,12 @@ packages:
     resolution: {integrity: sha512-DPOQvOxf1kEUzA7yEC40JYyvPhOGJirtSiX86vpi3ApTWud2n+B+D3AXS7JhT/g+ISNQ04dICRbRYY0yUeDLFA==}
     dependencies:
       '@tsparticles/engine': 3.0.2
+    dev: false
+
+  /@tsparticles/updater-size@3.9.1:
+    resolution: {integrity: sha512-3NSVs0O2ApNKZXfd+y/zNhTXSFeG1Pw4peI8e6z/q5+XLbmue9oiEwoPy/tQLaark3oNj3JU7Q903ZijPyXSzw==}
+    dependencies:
+      '@tsparticles/engine': 3.9.1
     dev: false
 
   /@tsparticles/updater-stroke-color@3.0.2:
@@ -4085,7 +4147,7 @@ packages:
     resolution: {integrity: sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==}
     dev: false
 
-  /cosmiconfig-typescript-loader@5.0.0(@types/node@18.19.3)(cosmiconfig@8.3.6)(typescript@5.3.3):
+  /cosmiconfig-typescript-loader@5.0.0(@types/node@18.19.3)(cosmiconfig@8.3.6)(typescript@6.0.2):
     resolution: {integrity: sha512-+8cK7jRAReYkMwMiG+bxhcNKiHJDM6bR9FD/nGBXOWdMLuYawjF5cGrtLilJ+LGd3ZjCXnJjR5DkfWPoIVlqJA==}
     engines: {node: '>=v16'}
     peerDependencies:
@@ -4094,9 +4156,9 @@ packages:
       typescript: '>=4'
     dependencies:
       '@types/node': 18.19.3
-      cosmiconfig: 8.3.6(typescript@5.3.3)
+      cosmiconfig: 8.3.6(typescript@6.0.2)
       jiti: 1.21.0
-      typescript: 5.3.3
+      typescript: 6.0.2
     dev: false
 
   /cosmiconfig@8.3.6(typescript@5.3.3):
@@ -4113,6 +4175,22 @@ packages:
       parse-json: 5.2.0
       path-type: 4.0.0
       typescript: 5.3.3
+    dev: false
+
+  /cosmiconfig@8.3.6(typescript@6.0.2):
+    resolution: {integrity: sha512-kcZ6+W5QzcJ3P1Mt+83OUv/oHFqZHIx8DuxG6eZ5RGMERoLqp4BuGjhHLYGK+Kf5XVkQvqBSmAy/nGWN3qDgEA==}
+    engines: {node: '>=14'}
+    peerDependencies:
+      typescript: '>=4.9.5'
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+    dependencies:
+      import-fresh: 3.3.0
+      js-yaml: 4.1.0
+      parse-json: 5.2.0
+      path-type: 4.0.0
+      typescript: 6.0.2
     dev: false
 
   /cross-spawn@7.0.3:
@@ -4747,8 +4825,8 @@ packages:
   /fs.realpath@1.0.0:
     resolution: {integrity: sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==}
 
-  /fsevents@2.3.2:
-    resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
+  /fsevents@2.3.3:
+    resolution: {integrity: sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
     requiresBuild: true
@@ -4994,7 +5072,7 @@ packages:
       source-map: 0.6.1
       wordwrap: 1.0.0
     optionalDependencies:
-      uglify-js: 3.17.4
+      uglify-js: 3.19.3
     dev: false
 
   /hard-rejection@2.1.0:
@@ -7303,7 +7381,7 @@ packages:
       '@rollup/rollup-win32-arm64-msvc': 4.9.1
       '@rollup/rollup-win32-ia32-msvc': 4.9.1
       '@rollup/rollup-win32-x64-msvc': 4.9.1
-      fsevents: 2.3.2
+      fsevents: 2.3.3
     dev: true
 
   /run-async@2.4.1:
@@ -7952,11 +8030,26 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
+  /typescript@6.0.2:
+    resolution: {integrity: sha512-bGdAIrZ0wiGDo5l8c++HWtbaNCWTS4UTv7RaTH/ThVIgjkveJt83m74bBHMJkuCbslY8ixgLBVZJIOiQlQTjfQ==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+    dev: false
+
   /uglify-js@3.17.4:
     resolution: {integrity: sha512-T9q82TJI9e/C1TAxYvfb16xO120tMVFZrGA3f9/P4424DNu6ypK103y0GPFVa17yotwSyZW5iYXgjYHkGrJW/g==}
     engines: {node: '>=0.8.0'}
     hasBin: true
     requiresBuild: true
+    dev: true
+
+  /uglify-js@3.19.3:
+    resolution: {integrity: sha512-v3Xu+yuwBXisp6QYTcH4UbH+xYJXqnq2m/LtQVWKWzYc1iehYnLixoQDN9FH6/j9/oybfd6W9Ghwkl8+UMKTKQ==}
+    engines: {node: '>=0.8.0'}
+    hasBin: true
+    requiresBuild: true
+    dev: false
+    optional: true
 
   /undici-types@5.26.5:
     resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
