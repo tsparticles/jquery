@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "cli run build:ci --stream --no-private",
+    "startTime": "2026-04-09T19:49:02.719Z",
+    "endTime": "2026-04-09T19:49:13.334Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "@tsparticles/jquery:build:ci",
+      "target": "build:ci",
+      "projectName": "@tsparticles/jquery",
+      "hash": "4190264391002686549",
+      "startTime": "2026-04-09T19:49:02.737Z",
+      "endTime": "2026-04-09T19:49:13.320Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    }
+  ]
+}

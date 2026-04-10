@@ -1,0 +1,377 @@
+{
+  "version": "6.0",
+  "nxVersion": "20.8.4",
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".github/FUNDING.yml",
+        "hash": "2320204612366203624"
+      },
+      {
+        "file": "package.json",
+        "hash": "11939649658470254398"
+      },
+      {
+        "file": "LICENSE",
+        "hash": "14361870659202179179"
+      },
+      {
+        "file": ".github/workflows/nodejs.yml",
+        "hash": "13730133468240220870"
+      },
+      {
+        "file": "lerna.json",
+        "hash": "2788240290453750718"
+      },
+      {
+        "file": "pnpm-workspace.yaml",
+        "hash": "15808296972866403992"
+      },
+      {
+        "file": "README.md",
+        "hash": "6586787489927830829"
+      },
+      {
+        "file": ".husky/.gitignore",
+        "hash": "4575667007673887251"
+      },
+      {
+        "file": "CHANGELOG.md",
+        "hash": "16109378850667483810"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "4847204773326325000"
+      },
+      {
+        "file": ".husky/commit-msg",
+        "hash": "13890091524433070441"
+      },
+      {
+        "file": "renovate.json",
+        "hash": "15495251679673267221"
+      },
+      {
+        "file": "nx.json",
+        "hash": "93868292560654171"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "7545214333261266466"
+      }
+    ],
+    "projectFileMap": {
+      "@tsparticles/jquery": [
+        {
+          "file": "components/jquery/.babelrc",
+          "hash": "2427069722536052358"
+        },
+        {
+          "file": "components/jquery/.eslintignore",
+          "hash": "6096912584038927713"
+        },
+        {
+          "file": "components/jquery/.eslintrc.js",
+          "hash": "10826143361725950632"
+        },
+        {
+          "file": "components/jquery/.prettierrc",
+          "hash": "4927571770165654278"
+        },
+        {
+          "file": "components/jquery/CHANGELOG.md",
+          "hash": "13752856093848435107"
+        },
+        {
+          "file": "components/jquery/LICENSE",
+          "hash": "14361870659202179179"
+        },
+        {
+          "file": "components/jquery/README.md",
+          "hash": "259207406418327244"
+        },
+        {
+          "file": "components/jquery/package.json",
+          "hash": "3696402276561178270",
+          "deps": [
+            "npm:jquery",
+            "npm:@babel/core",
+            "npm:@babel/preset-env",
+            "npm:@rollup/plugin-babel",
+            "npm:@tsparticles/prettier-config",
+            "npm:@types/jquery",
+            "npm:@types/node",
+            "npm:@types/webpack-env",
+            "npm:@typescript-eslint/eslint-plugin",
+            "npm:@typescript-eslint/parser",
+            "npm:babel-preset-env",
+            "npm:eslint",
+            "npm:eslint-config-prettier",
+            "npm:prettier",
+            "npm:prettier-plugin-multiline-arrays",
+            "npm:rollup",
+            "npm:typescript",
+            "npm:uglify-js",
+            "npm:@tsparticles/engine"
+          ]
+        },
+        {
+          "file": "components/jquery/rollup.config.mjs",
+          "hash": "2475441765041431721"
+        },
+        {
+          "file": "components/jquery/src/particles.ts",
+          "hash": "13934865304595616022"
+        },
+        {
+          "file": "components/jquery/tsconfig.json",
+          "hash": "15498769310416736282"
+        },
+        {
+          "file": "components/jquery/typedoc.json",
+          "hash": "13727249761824254356"
+        }
+      ],
+      "@tsparticles/jquery-demo": [
+        {
+          "file": "apps/jquery/CHANGELOG.md",
+          "hash": "16109378850667483810"
+        },
+        {
+          "file": "apps/jquery/README.md",
+          "hash": "1388857020035433803"
+        },
+        {
+          "file": "apps/jquery/app.js",
+          "hash": "17624171407069061829"
+        },
+        {
+          "file": "apps/jquery/package.json",
+          "hash": "6627472920149898416",
+          "deps": [
+            "npm:@fortawesome/fontawesome-free",
+            "npm:@typescript-eslint/eslint-plugin",
+            "npm:@typescript-eslint/parser",
+            "npm:babel-preset-env",
+            "npm:eslint",
+            "npm:eslint-config-prettier",
+            "npm:express",
+            "npm:express-rate-limit",
+            "npm:helmet",
+            "npm:jsoneditor",
+            "npm:lodash",
+            "npm:prettier",
+            "npm:pug",
+            "npm:stats.ts",
+            "npm:stylus",
+            "npm:typescript",
+            "npm:@tsparticles/configs",
+            "npm:@tsparticles/engine",
+            "@tsparticles/jquery",
+            "npm:@tsparticles/preset-links",
+            "npm:jquery",
+            "npm:tsparticles"
+          ]
+        },
+        {
+          "file": "apps/jquery/public/images/background.jpg",
+          "hash": "3160585052846987848"
+        },
+        {
+          "file": "apps/jquery/public/images/deer.gvdesign",
+          "hash": "6965296668442588004"
+        },
+        {
+          "file": "apps/jquery/public/images/deer.svg",
+          "hash": "14923128303811678200"
+        },
+        {
+          "file": "apps/jquery/public/images/demo.png",
+          "hash": "583051952651397674"
+        },
+        {
+          "file": "apps/jquery/public/images/favicon.ico",
+          "hash": "3353537735687999015"
+        },
+        {
+          "file": "apps/jquery/public/images/fruits/apple.png",
+          "hash": "15227962529069191404"
+        },
+        {
+          "file": "apps/jquery/public/images/fruits/avocado.png",
+          "hash": "12467056564582922795"
+        },
+        {
+          "file": "apps/jquery/public/images/fruits/banana.png",
+          "hash": "9672064360349839532"
+        },
+        {
+          "file": "apps/jquery/public/images/fruits/berries.png",
+          "hash": "5651116612065244657"
+        },
+        {
+          "file": "apps/jquery/public/images/fruits/cherry.png",
+          "hash": "10257689332383100272"
+        },
+        {
+          "file": "apps/jquery/public/images/fruits/grapes.png",
+          "hash": "145619598381880720"
+        },
+        {
+          "file": "apps/jquery/public/images/fruits/lemon.png",
+          "hash": "18435843462641959493"
+        },
+        {
+          "file": "apps/jquery/public/images/fruits/orange.png",
+          "hash": "11460569127112837184"
+        },
+        {
+          "file": "apps/jquery/public/images/fruits/peach.png",
+          "hash": "7982503504054602670"
+        },
+        {
+          "file": "apps/jquery/public/images/fruits/pear.png",
+          "hash": "8804182501399817663"
+        },
+        {
+          "file": "apps/jquery/public/images/fruits/pepper.png",
+          "hash": "8968692359985490529"
+        },
+        {
+          "file": "apps/jquery/public/images/fruits/plum.png",
+          "hash": "14597236011472063763"
+        },
+        {
+          "file": "apps/jquery/public/images/fruits/star.png",
+          "hash": "4869860592377636658"
+        },
+        {
+          "file": "apps/jquery/public/images/fruits/strawberry.png",
+          "hash": "7083018867804463934"
+        },
+        {
+          "file": "apps/jquery/public/images/fruits/watermelon.png",
+          "hash": "15974291440569399362"
+        },
+        {
+          "file": "apps/jquery/public/images/fruits/watermelon_slice.png",
+          "hash": "14167210251700619330"
+        },
+        {
+          "file": "apps/jquery/public/images/gifs/chars.gif",
+          "hash": "13515443984733047479"
+        },
+        {
+          "file": "apps/jquery/public/images/gifs/connect.gif",
+          "hash": "11784173822933989675"
+        },
+        {
+          "file": "apps/jquery/public/images/gifs/covid.gif",
+          "hash": "4715726179248556754"
+        },
+        {
+          "file": "apps/jquery/public/images/gifs/demo.gif",
+          "hash": "9293615406555192921"
+        },
+        {
+          "file": "apps/jquery/public/images/gifs/mask.gif",
+          "hash": "2140591034994306092"
+        },
+        {
+          "file": "apps/jquery/public/images/gifs/nasa.gif",
+          "hash": "754536519398138589"
+        },
+        {
+          "file": "apps/jquery/public/images/gifs/nyancat.gif",
+          "hash": "16461268490301556349"
+        },
+        {
+          "file": "apps/jquery/public/images/gifs/snow.gif",
+          "hash": "16283217711513128777"
+        },
+        {
+          "file": "apps/jquery/public/images/gifs/snow_trees.gif",
+          "hash": "1713107410741084097"
+        },
+        {
+          "file": "apps/jquery/public/images/github.png",
+          "hash": "1184723285238408841"
+        },
+        {
+          "file": "apps/jquery/public/images/github.svg",
+          "hash": "11168820227808551023"
+        },
+        {
+          "file": "apps/jquery/public/images/hollowknight.svg",
+          "hash": "1178125236076148122"
+        },
+        {
+          "file": "apps/jquery/public/images/sars-cov-2.png",
+          "hash": "10456783517909504812"
+        },
+        {
+          "file": "apps/jquery/public/images/smalldeer.svg",
+          "hash": "1643061215150214408"
+        },
+        {
+          "file": "apps/jquery/public/javascripts/demo.js",
+          "hash": "1684419024303709037"
+        },
+        {
+          "file": "apps/jquery/public/stylesheets/.gitignore",
+          "hash": "12689968084062868470"
+        },
+        {
+          "file": "apps/jquery/public/stylesheets/main.styl",
+          "hash": "892591454016021054"
+        },
+        {
+          "file": "apps/jquery/public/videos/chars.mov",
+          "hash": "4957233081434147226"
+        },
+        {
+          "file": "apps/jquery/public/videos/connect.mov",
+          "hash": "15687056321301065594"
+        },
+        {
+          "file": "apps/jquery/public/videos/covid.mov",
+          "hash": "1502455990860376372"
+        },
+        {
+          "file": "apps/jquery/public/videos/demo.mov",
+          "hash": "11668362882809372213"
+        },
+        {
+          "file": "apps/jquery/public/videos/mask.mov",
+          "hash": "14791947883238107654"
+        },
+        {
+          "file": "apps/jquery/public/videos/nasa.mov",
+          "hash": "15208188047077233244"
+        },
+        {
+          "file": "apps/jquery/public/videos/nyancat.mov",
+          "hash": "738326769263499589"
+        },
+        {
+          "file": "apps/jquery/public/videos/snow.mov",
+          "hash": "1753665509421603832"
+        },
+        {
+          "file": "apps/jquery/public/videos/snow_trees.mov",
+          "hash": "14900426125247643988"
+        },
+        {
+          "file": "apps/jquery/views/.gitignore",
+          "hash": "7390946452166221089"
+        },
+        {
+          "file": "apps/jquery/views/index.pug",
+          "hash": "331310592478015213"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,34 @@
+
+> @tsparticles/jquery@3.0.0 build:ci C:\Projects\GitHub\jquery\components\jquery
+> pnpm run prettify:src && pnpm run lint:ci && pnpm run compile && pnpm run bundle && pnpm run minify && pnpm run prettify:readme
+
+
+> @tsparticles/jquery@3.0.0 prettify:src C:\Projects\GitHub\jquery\components\jquery
+> prettier --write ./src/*
+
+[90msrc/particles.ts[39m 47ms (unchanged)
+
+> @tsparticles/jquery@3.0.0 lint:ci C:\Projects\GitHub\jquery\components\jquery
+> eslint src --ext .js,.jsx,.ts,.tsx
+
+
+> @tsparticles/jquery@3.0.0 compile C:\Projects\GitHub\jquery\components\jquery
+> tsc
+
+
+> @tsparticles/jquery@3.0.0 bundle C:\Projects\GitHub\jquery\components\jquery
+> rollup -c
+
+[36m
+[1mdist/particles.js[22m → [1mdist/jquery.particles.js[22m...[39m
+babelHelpers: 'bundled' option was used by default. It is recommended to configure this option explicitly, read more here: https://github.com/rollup/plugins/tree/master/packages/babel#babelhelpers
+[32mcreated [1mdist/jquery.particles.js[22m in [1m449ms[22m[39m
+
+> @tsparticles/jquery@3.0.0 minify C:\Projects\GitHub\jquery\components\jquery
+> uglifyjs dist/jquery.particles.js --output dist/jquery.particles.min.js --source-map "filename='dist/jquery.particles.min.js.map',url='jquery.particles.min.js.map',content='dist/jquery.particles.js.map'"
+
+
+> @tsparticles/jquery@3.0.0 prettify:readme C:\Projects\GitHub\jquery\components\jquery
+> prettier --write ./README.md
+
+[90mREADME.md[39m 90ms (unchanged)

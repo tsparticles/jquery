@@ -1,0 +1,910 @@
+{
+  "apps/jquery": {
+    "root": [
+      "apps/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "name": [
+      "apps/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "apps/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "apps/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "apps/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "apps/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "apps/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "apps/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "apps/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.3": [
+      "apps/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.4": [
+      "apps/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.description": [
+      "apps/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "apps/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "apps/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageExports": [
+      "apps/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "apps/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "apps/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "apps/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build": [
+      "apps/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.executor": [
+      "apps/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options": [
+      "apps/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata": [
+      "apps/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options.script": [
+      "apps/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.scriptContent": [
+      "apps/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.runCommand": [
+      "apps/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:ci": [
+      "apps/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:ci.executor": [
+      "apps/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:ci.options": [
+      "apps/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:ci.metadata": [
+      "apps/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:ci.options.script": [
+      "apps/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:ci.metadata.scriptContent": [
+      "apps/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:ci.metadata.runCommand": [
+      "apps/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:index": [
+      "apps/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:index.executor": [
+      "apps/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:index.options": [
+      "apps/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:index.metadata": [
+      "apps/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:index.options.script": [
+      "apps/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:index.metadata.scriptContent": [
+      "apps/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:index.metadata.runCommand": [
+      "apps/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:style": [
+      "apps/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:style.executor": [
+      "apps/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:style.options": [
+      "apps/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:style.metadata": [
+      "apps/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:style.options.script": [
+      "apps/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:style.metadata.scriptContent": [
+      "apps/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:style.metadata.runCommand": [
+      "apps/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start": [
+      "apps/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.executor": [
+      "apps/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.options": [
+      "apps/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.metadata": [
+      "apps/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.options.script": [
+      "apps/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.metadata.scriptContent": [
+      "apps/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.metadata.runCommand": [
+      "apps/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build:ci.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build:ci.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "components/jquery": {
+    "root": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "name": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:front-end": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:frontend": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:jquery-plugin": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:ecosystem:jquery": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:tsparticles": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:particles.js": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:particlesjs": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:particles": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:particle": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:canvas": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:jsparticles": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:xparticles": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:particles-js": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:particles-bg": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:particles-bg-vue": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:particles-ts": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:particles.ts": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:react-particles-js": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:react-particles.js": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:react-particles": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:react": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:reactjs": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:vue-particles": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:ngx-particles": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:angular-particles": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:particleground": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:vue": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:vuejs": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:preact": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:preactjs": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:jquery": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:angularjs": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:angular": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:typescript": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:javascript": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:animation": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:web": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:html5": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:web-design": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:webdesign": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:css": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:html": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:css3": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:animated": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:background": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:confetti": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:fireworks": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:fireworks-js": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:confetti-js": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:confettijs": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:fireworksjs": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:canvas-confetti": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.3": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.4": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.5": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.6": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.7": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.8": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.9": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.10": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.11": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.description": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageExports": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prettify:ci:src": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prettify:ci:src.executor": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prettify:ci:src.options": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prettify:ci:src.metadata": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prettify:ci:src.options.script": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prettify:ci:src.metadata.scriptContent": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prettify:ci:src.metadata.runCommand": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prettify:ci:readme": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prettify:ci:readme.executor": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prettify:ci:readme.options": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prettify:ci:readme.metadata": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prettify:ci:readme.options.script": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prettify:ci:readme.metadata.scriptContent": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prettify:ci:readme.metadata.runCommand": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prettify:src": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prettify:src.executor": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prettify:src.options": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prettify:src.metadata": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prettify:src.options.script": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prettify:src.metadata.scriptContent": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prettify:src.metadata.runCommand": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prettify:readme": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prettify:readme.executor": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prettify:readme.options": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prettify:readme.metadata": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prettify:readme.options.script": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prettify:readme.metadata.scriptContent": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prettify:readme.metadata.runCommand": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.executor": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options.script": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata.scriptContent": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata.runCommand": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:ci": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:ci.executor": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:ci.options": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:ci.metadata": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:ci.options.script": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:ci.metadata.scriptContent": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:ci.metadata.runCommand": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.compile": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.compile.executor": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.compile.options": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.compile.metadata": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.compile.options.script": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.compile.metadata.scriptContent": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.compile.metadata.runCommand": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.bundle": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.bundle.executor": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.bundle.options": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.bundle.metadata": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.bundle.options.script": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.bundle.metadata.scriptContent": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.bundle.metadata.runCommand": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.minify": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.minify.executor": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.minify.options": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.minify.metadata": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.minify.options.script": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.minify.metadata.scriptContent": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.minify.metadata.runCommand": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.executor": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options.script": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.scriptContent": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.runCommand": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:ci": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:ci.executor": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:ci.options": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:ci.metadata": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:ci.options.script": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:ci.metadata.scriptContent": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:ci.metadata.runCommand": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepack": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepack.executor": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepack.options": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepack.metadata": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepack.options.script": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepack.metadata.scriptContent": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepack.metadata.runCommand": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.executor": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.dependsOn": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.options": [
+      "components/jquery/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build:ci.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build:ci.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  }
+}

@@ -14,7 +14,8 @@
     "@commitlint/config-conventional": "^18.4.3",
     "husky": "^8.0.3",
     "lerna": "^8.0.1",
-    "nx": "^20.7.2"
+    "nx": "^20.7.2",
+    "prettier-plugin-multiline-arrays": "^4.1.5"
   },
   "workspaces": [
     "apps/*",
